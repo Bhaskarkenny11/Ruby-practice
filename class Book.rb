@@ -8,9 +8,9 @@ class Book
       end
       
       def display()
-          puts "title  = #@title"
-         puts "author =  #@author"
-          puts "price  =  #@price"
+          puts "title  = #{@title}"
+         puts "author =  #{@author}"
+          puts "price  =  #{@price}"
       end  
      def priceofbook
         if @price >= 1000
