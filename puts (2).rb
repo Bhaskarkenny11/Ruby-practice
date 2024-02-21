@@ -1,8 +1,10 @@
 print "hell0 world "
 puts"hello ruby"
-print"this is print\n"
+print"this is print throws cursor in new B'cuz we mentioned \n \n"
 puts " space  "
-puts "this is with  double quotes allow susbtitution\\"
+puts "this is with  \"double quotes\" allow \"escaping\" by using =>\\\\" 
+# from left to right 1st backslash to escape and to let disply second backslash and 3rd  backslash to escape and to let disply 4th backslash
+#technically whatever is infront of \ it escapes and prints => \"
 puts 'this is using single quotes\''
 puts "constants starts with capital letter VAR=1"
 puts "we can write any ruby expressions in '#'{....code...}"
